@@ -28,7 +28,7 @@ public class PaperController {
     
     @GetMapping("/")
     public String mine() {
-    	return "Hello";
+    	return "Hello world";
     }
     @GetMapping("/{id}")
     public ResponseEntity<Paper> getPaperById(@PathVariable Integer id) {
