@@ -32,7 +32,7 @@ public class conferenceController {
     public ResponseEntity<String> createConference(@RequestBody conference conference) {
         
         conferenceService.createConference(conference);
-        return ResponseEntity.ok("Conference created successfully");
+        return ResponseEntity.ok("Conference created successfullyy");
     }
 	//@PostMapping("/createConference")
 //    public ResponseEntity<String> createConference(@RequestBody conference conference, @RequestParam String userEmail) {
